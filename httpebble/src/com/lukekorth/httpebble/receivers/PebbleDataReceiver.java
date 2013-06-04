@@ -47,7 +47,7 @@ public class PebbleDataReceiver extends BroadcastReceiver {
 			}
 			else
 			{
-				Log.d("Transaction Id out of range, or no data");
+				Log.d(Constants.HTTPEBBLE, "Transaction Id out of range, or no data");
 			}
 		}
 	}
